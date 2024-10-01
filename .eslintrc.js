@@ -32,6 +32,8 @@ module.exports = {
     'no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
     'object-shorthand': 'warn',
     'quote-props': ['warn', 'as-needed'],
+    'no-extra-boolean-cast': 'off',
+    'no-console': ['warn', { allow: ['warn', 'error'] }],
     // TypeScript rules
     '@typescript-eslint/array-type': [
       'warn',
